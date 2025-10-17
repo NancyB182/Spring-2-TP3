@@ -1,0 +1,27 @@
+{
+  "name": "grupo-02-superheroes",
+  "version": "1.0.0",
+  "description": "Proyecto Node.js con MongoDB para manejo de superhéroes - Grupo 02",
+  "type": "module",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "superheroes",
+    "grupo-02"
+  ],
+  "author": "Grupo 02",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
